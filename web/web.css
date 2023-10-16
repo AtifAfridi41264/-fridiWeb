@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+ .container{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+ }
+ .div1{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+   
+ }
+ .box1{
+    border: 1px solid red;
+    border-style: hidden;
+    height: 300px;
+    width: 400px;
+    margin: 150px; 0 0 0;
+    display: inline-block;
+ }
+ h1{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+ #black{
+    font-size: 20px;
+    font-family: cursive;
+    word-spacing: 10px;
+    color: black;
+    
+ }
+ button{
+    border: 1px solid black;
+    border-style: solid;
+    background-color: skyblue;
+    border-radius: 4px;
+    height: 30px;
+border-radius: 12px;
+ }
+ .img{
+    height:200px;
+    width: 50%;
+    float: right;
+     
+ }
+ .div2{
+   
+   height:600px;
+    width: 100%;
+    background-image: url("/background.jpg");
+      
+ }
+
+#mdiv{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+#mdiv div {
+      align-items: center;
+      margin-top: 250px;
+      margin-left: 60px;
+      width: 100%;
+      height: 330px;
+     
+}
+.white{
+   border: 1px solid red;
+   border-style: hidden;
+   height: 400px;
+   width: 100%;
+   text-align: center;
+   padding: 100px;
+   align-content: center;
+   
+   
+ 
+}
+   
+ h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   text-align: center;
+   color:green;
+ }
+ h2{
+      font-family: monospace;
+      font-size: 25px;
+      color: white;
+      text-align: center;
+ }
+p{
+   font-family: cursive;
+   font-size: 20px;
+   word-spacing: 10px;
+   text-align: center;
+   color: wheat;
+}
+#wh{
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+   text-align: center;
+   color: black;
+
+}
+#ph{
+   font-size: 30px;
+   text-align: center;
+   word-spacing: 10px;
+   color: black;
+}
+#B2{
+   border: 1px solid black;
+   border-style: solid;
+   background-color:skyblue;
+   width: 70px;
+   height: 35px;
+border-radius: 12px;
+}
+.responsive{
+   height:600px;
+    width: 100%;
+    background-image: url("/background.jpg");
+      
+}
+.r{
+   margin-top: 300px;
+}
+#rh{
+   font-size: 20px;
+   text-align: center;
+   padding-top: 150px;
+   color: whitesmoke;
+}
+#rp{
+   text-align: center;
+   margin: 0 40;
+
+}
+#main2{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+#main2 div {
+   border: 1px solid white ;
+   border-style: dotted;
+      align-items: center;
+      margin-top:80px;
+      margin-left: 100px;
+      width: 300px;
+      height:200px;
+      text-align: center;
+      padding: 60px;
+      color: white;
+     
+}
